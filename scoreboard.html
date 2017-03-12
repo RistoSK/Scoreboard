@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="CSS/myScoreboardStyle.css">
+   </head>
+   <body>
+      <h1>This is a scoreboard app!</h1>
+      <div id="stripe">
+         <p>Match points: <input type="number" id="matchPoints" name="matchPoints" value="5" onclick="change()"></p>
+         <p id="p1">Player1: </p>
+         <p id="scoreP1">0</p>
+         <p id="p2"> Player2: </p>
+         <p id="scoreP2">0</p>
+      </div>
+      <div id="stripe2">
+         <button id="button1">Player 1 Scored!</button>
+         <button id="button2">Player 2 Scored!</button>
+         <button id="buttonReset">Reset</button>
+      </div>
+   </body>
+   <script src="JS/scoreboard.js"></script>
+</html>
